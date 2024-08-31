@@ -18,11 +18,11 @@ pip install -r requirements.txt
 
 ```
 
-### mpi4p dependency
+### ⚠️ mpi4p dependency
 
-The package `mpi4py` is required because we'll use 'mpirun' to use an MPIEnvironment.
-For more info see [lightning.ai MPIEnvironmnet docs](https://lightning.ai/docs/pytorch/stable/api/lightning.pytorch.plugins.environments.MPIEnvironment.html)
-For your own environment:
+**The package `mpi4py` is required because we'll use 'mpirun' to use an MPIEnvironment in lightning.**
+
+For more info see [lightning.ai MPIEnvironmnet docs](https://lightning.ai/docs/pytorch/stable/api/lightning.pytorch.plugins.environments.MPIEnvironment.html). For other projects, when you create a new environment you'll have install it:
 ```
 pip install mpi4py
 ```
